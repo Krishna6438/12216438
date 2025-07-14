@@ -1,12 +1,62 @@
-# React + Vite
+# 🔗 AffordMed Frontend Test Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is submitted as part of the **Campus Hiring Evaluation** for **Afford Medical Technologies Pvt. Ltd.** It is a fully functional **URL Shortener Application** built using **ReactJS**, following the provided evaluation guidelines.
 
-Currently, two official plugins are available:
+## 📁 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend Test Submission/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── URLForm.jsx
+│ │ ├── URLStats.jsx
+│ │ └── ShortURLItem.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ └── Stats.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── package.json
+├── README.md
 
-## Expanding the ESLint configuration
+markdown
+Copy
+Edit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ✅ URL shortening with custom shortcode support
+- ✅ Expiry setting for shortened links
+- ✅ Mock logging middleware
+- ✅ Statistics view with total clicks and location/browser details
+- ✅ Styled using **Material UI**
+
+## 🛠️ Technologies Used
+
+- ReactJS (Vite)
+- Material UI
+- JavaScript (ES6+)
+- Mock data for stats/logs
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-roll-number.git
+cd your-roll-number/Frontend Test Submission
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+Then open: http://localhost:5173
+
+📂 Logging Middleware
+A custom logging middleware is also included in the /Logging Middleware/ directory as per the submission requirement. It simulates client-side event tracking such as info, error, and fatal logs.
+
+📌 Folder Structure Summary
+Frontend Test Submission/ → Contains the entire React frontend app
+
+Logging Middleware/ → Contains mock logging module for API tracking
